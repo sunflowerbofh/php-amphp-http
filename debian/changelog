@@ -1,0 +1,5 @@
+amphp-http (1.6.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1011337).
+
+ -- Katharina Drexel <katharina.drexel@bfh.ch>  Tue, 03 May 2022 11:13:10 +0200
