@@ -20,6 +20,8 @@ final class Rfc7230
      *
      * Allows empty header values, as HTTP/1.0 allows that.
      *
+     * @param string $rawHeaders
+     *
      * @return array Associative array mapping header names to arrays of values.
      *
      * @throws InvalidHeaderException If invalid headers have been passed.
@@ -42,6 +44,8 @@ final class Rfc7230
      * Parses headers according to RFC 7230 and 2616.
      *
      * Allows empty header values, as HTTP/1.0 allows that.
+     *
+     * @param string $rawHeaders
      *
      * @return array List of [field, value] header pairs.
      *

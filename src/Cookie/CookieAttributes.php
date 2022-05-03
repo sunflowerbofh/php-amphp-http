@@ -160,6 +160,8 @@ final class CookieAttributes
     /**
      * Applies the given expiry to the cookie.
      *
+     * @param \DateTimeInterface $date
+     *
      * @return self Cloned instance with the specified operation applied.
      *
      * @see self::withMaxAge()

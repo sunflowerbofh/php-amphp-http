@@ -3,6 +3,11 @@
 namespace Amp\Http;
 
 /**
+ * @param Message $message
+ * @param string  $headerName
+ *
+ * @return array|null
+ *
  * @see https://tools.ietf.org/html/rfc7230#section-3.2.6
  */
 function parseFieldValueComponents(Message $message, string $headerName): ?array
